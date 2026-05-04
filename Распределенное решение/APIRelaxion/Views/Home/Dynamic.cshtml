@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    float[][] A = ViewBag.A;
+    float[] B = ViewBag.B;
+    int n = ViewBag.n;
+}
+@model float[]
+<font color="red">@ViewBag.Error</font>
+
+@*
+
+ float[,] A = {
+
+                { 4, -1, 0 }, // 1 
+                { -1, 4, -1 }, // 2
+                { 0, -1, 4 }
+            };
+
+            float[] B = { 3, 2, 3 };
+
+*@
+<h1>Решение динамической средней матрицы <= 30 x 30 </h1>
+<p>A<sub>i</sub><sub>j</sub> - коэффициенты СЛАУ</p>
+<p>B><sub>i</sub> - вектор свободных членов</p>
+<br />
+
+@* <table>
+    <thead>
+        <tr>
+            <th colspan="3">
+                <p>Выберите размер матрицы</p>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a class="sizeMatr" href="~/Home/Dynamic?n=10">10 x 10</a>
+            </td>
+            <td>
+                <a class="sizeMatr" href="~/Home/Dynamic?n=20">20 x 20</a>
+            </td>
+            <td>
+                <a class="sizeMatr" href="~/Home/Dynamic?n=30">30 x 30</a>
+            </td>
+
+
+        </tr>
+    </tbody>
+</table> *@
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Выберите размер матрицы
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="~/Home/Dynamic?n=10">10 x 10</a></li>
+        <li><a class="dropdown-item" href="~/Home/Dynamic?n=20">20 x 20</a></li>
+        <li> <a class="dropdown-item" href="~/Home/Dynamic?n=30">30 x 30</a></li>
+    </ul>
+</div>
+
+<br />
+
+
+<form method="post">
+    <p><b>Параметры рассчёта</b></p>
+    <p>Время выполнения: @ViewBag.leadtime мс</p>
+    <p>Количество итераций: @ViewBag.iter</p>
+    <p>Коэффициент: @ViewBag.omega</p>
+    <p>Точность: @ViewBag.tolerance</p>
+    <p>Максимально допустимое число итераций: @ViewBag.maxIterations</p>
+
+    <h1>Выбрана матрица @n x @n</h1>
+
+    <table id="Matrix">
+
+        <tr>
+            <th>№ строки</th>
+            <th colspan="@(n+1)">Aij</th>
+            <th>Bi</th>
+        </tr>
+
+        @for (int i = 0; i < n; i++)
+            {
+                <tr>
+
+                    <td>@(i+1)</td>
+                    @for (int j = 0; j < n; j++)
+                    {
+                        <td><input type="text" name="A[@i][@j]" value="@A[i][j]" /></td>
+                    }
+
+                    <td><input type="text" name="B[]" value="@B[i]" /></td>
+                </tr>
+            }
+
+        
+
+
+    </table>
+
+    <br />
+
+    <input type="submit" value="Решить СЛАУ"/>
+
+
+</form>
+
+<br />
+@if (Model != null)
+{
+    <h3>Решение СЛАУ</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Значения переменных</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>@e</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

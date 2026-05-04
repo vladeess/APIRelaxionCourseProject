@@ -1,0 +1,112 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    float[][] A = ViewBag.A;
+    float[] B = ViewBag.B;
+    var v = ViewBag.col2 - ViewBag.col1;
+    var n = ViewBag.n;
+}
+@model float[]
+<font color="red">@ViewBag.Error</font>
+
+
+<h1>Решение динамической большой матрицы</h1>
+<p>A<sub>i</sub><sub>j</sub> - коэффициенты СЛАУ</p>
+<p>B<sub>i</sub> - вектор свободных членов</p>
+<br />
+
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Выберите размер матрицы
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="~/Home/Big?n=4">4 x 4</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=10">10 x 10</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=20">20 x 20</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=100">100 x 100</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=300">300 x 300</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=2000">2000 x 2000</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=5000">5000 x 5000</a></li>
+        <li> <a class="dropdown-item" href="~/Home/Big?n=10000">10000 x 10000</a></li> @*    GET-метод, то есть параметры передаются в URL-е  *@
+        <li><a class="dropdown-item" href="~/Home/Big?n=30000">30000 x 30000</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=40000">40000 x 40000</a></li>
+        <li><a class="dropdown-item" href="~/Home/Big?n=50000">50000 x 50000</a></li>
+    </ul>
+</div>
+<br />
+
+<form method="post">
+    row1<input type="number" name="row1" value="@ViewBag.row1" />
+    row2<input type="number" name="row2" value="@ViewBag.row2" />
+    col1<input type="number" name="col1" value="@ViewBag.col1" />
+    col2<input type="number" name="col2" value="@ViewBag.col2" />
+    <input type="submit" value="Показать" />
+    <br />
+    <br />
+    @if(n == 0)
+    {
+        <h1>Матрица не задана</h1>
+    }
+    else
+    {
+        <h1>Выбрана матрица @n x @n</h1>
+    }
+        
+</form>
+
+<p><b>Параметры рассчёта</b></p>
+<p>Время выполнения: @ViewBag.leadtime мс</p>
+<p>Количество итераций: @ViewBag.iter</p>
+<p>Коэффициент: @ViewBag.omega</p>
+<p>Точность: @ViewBag.tolerance</p>
+<p>Максимально допустимое число итераций: @ViewBag.maxIterations</p>
+
+
+@* Пагинация на подматрицу. *@
+@if (ViewBag.A != null && ViewBag.row1 > 0 && ViewBag.row2 > 0 && ViewBag.col1 > 0 && ViewBag.col2 > 0)
+{
+    <table id="Matrix">
+        <tr>
+            <th>№ строки / № столбца</th>
+            @for (int i = ViewBag.col1 - 1; i <= ViewBag.col2 - 1; i++)
+            {
+                    <th>@(i + 1)</th>
+            }
+            <th>Bi</th>
+        </tr>
+        @for (int i = ViewBag.row1 - 1; i <= ViewBag.row2 - 1; i++)
+        {
+            <tr>
+                <td>@( i + 1)</td>
+                @for (int j = ViewBag.col1 - 1; j <= ViewBag.col2 - 1; j++)
+                {
+                    <td>@A[i][j]</td>
+                }
+                <td>@B[i]</td>
+            </tr>
+        }
+    </table>
+} 
+
+<br />
+@if (Model != null)
+{
+    <h3>Решение СЛАУ</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Значения переменных</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>@e</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

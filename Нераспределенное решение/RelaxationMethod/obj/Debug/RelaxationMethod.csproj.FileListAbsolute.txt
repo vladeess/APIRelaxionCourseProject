@@ -1,0 +1,7 @@
+D:\УЧЕБА\3 курс\2 семестр\РИС\Курсовая\RelaxationMethod\RelaxationMethod\bin\Debug\RelaxationMethod.exe.config
+D:\УЧЕБА\3 курс\2 семестр\РИС\Курсовая\RelaxationMethod\RelaxationMethod\bin\Debug\RelaxationMethod.exe
+D:\УЧЕБА\3 курс\2 семестр\РИС\Курсовая\RelaxationMethod\RelaxationMethod\bin\Debug\RelaxationMethod.pdb
+D:\УЧЕБА\3 курс\2 семестр\РИС\Курсовая\RelaxationMethod\RelaxationMethod\obj\Debug\RelaxationMethod.csproj.AssemblyReference.cache
+D:\УЧЕБА\3 курс\2 семестр\РИС\Курсовая\RelaxationMethod\RelaxationMethod\obj\Debug\RelaxationMethod.csproj.CoreCompileInputs.cache
+D:\УЧЕБА\3 курс\2 семестр\РИС\Курсовая\RelaxationMethod\RelaxationMethod\obj\Debug\RelaxationMethod.exe
+D:\УЧЕБА\3 курс\2 семестр\РИС\Курсовая\RelaxationMethod\RelaxationMethod\obj\Debug\RelaxationMethod.pdb

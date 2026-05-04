@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\visual\\APIRelaxion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|c:\\visual\\apirelaxion\\apirelaxion\\views\\home\\big.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|solutionrelative:apirelaxion\\views\\home\\big.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|c:\\visual\\apirelaxion\\apirelaxion\\classes\\relaxationmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|solutionrelative:apirelaxion\\classes\\relaxationmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|c:\\visual\\apirelaxion\\apirelaxion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|solutionrelative:apirelaxion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|c:\\visual\\apirelaxion\\apirelaxion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|solutionrelative:apirelaxion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|c:\\visual\\apirelaxion\\apirelaxion\\views\\home\\taskandauthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|solutionrelative:apirelaxion\\views\\home\\taskandauthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|c:\\visual\\apirelaxion\\apirelaxion\\views\\home\\dynamic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956D468A-F464-B768-D4EB-5B1660581631}|APIRelaxion\\APIRelaxion.csproj|solutionrelative:apirelaxion\\views\\home\\dynamic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 144,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "APIRelaxion\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "APIRelaxion\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T15:45:16.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dynamic.cshtml",
+              "DocumentMoniker": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\Dynamic.cshtml",
+              "RelativeDocumentMoniker": "APIRelaxion\\Views\\Home\\Dynamic.cshtml",
+              "ToolTip": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\Dynamic.cshtml",
+              "RelativeToolTip": "APIRelaxion\\Views\\Home\\Dynamic.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T15:45:07.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelaxationMethod.cs",
+              "DocumentMoniker": "C:\\visual\\APIRelaxion\\APIRelaxion\\Classes\\RelaxationMethod.cs",
+              "RelativeDocumentMoniker": "APIRelaxion\\Classes\\RelaxationMethod.cs",
+              "ToolTip": "C:\\visual\\APIRelaxion\\APIRelaxion\\Classes\\RelaxationMethod.cs",
+              "RelativeToolTip": "APIRelaxion\\Classes\\RelaxationMethod.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:44:51.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskAndAuthor.cshtml",
+              "DocumentMoniker": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\TaskAndAuthor.cshtml",
+              "RelativeDocumentMoniker": "APIRelaxion\\Views\\Home\\TaskAndAuthor.cshtml",
+              "ToolTip": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\TaskAndAuthor.cshtml",
+              "RelativeToolTip": "APIRelaxion\\Views\\Home\\TaskAndAuthor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T15:45:29.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Big.cshtml",
+              "DocumentMoniker": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\Big.cshtml",
+              "RelativeDocumentMoniker": "APIRelaxion\\Views\\Home\\Big.cshtml",
+              "ToolTip": "C:\\visual\\APIRelaxion\\APIRelaxion\\Views\\Home\\Big.cshtml",
+              "RelativeToolTip": "APIRelaxion\\Views\\Home\\Big.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T15:44:50.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\visual\\APIRelaxion\\APIRelaxion\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "APIRelaxion\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\visual\\APIRelaxion\\APIRelaxion\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "APIRelaxion\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAwwKUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:44:05.322Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

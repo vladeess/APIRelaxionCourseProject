@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model float[]
+
+<font color="red">@ViewBag.Error</font>
+@*
+
+ float[,] A = {
+
+                { 4, -1, 0 }, // 1 
+                { -1, 4, -1 }, // 2
+                { 0, -1, 4 }
+            };
+
+            float[] B = { 3, 2, 3 };
+
+*@
+<h1>Пример решения матрицы 3x3</h1>
+<p>A<sub>i</sub><sub>j</sub> - коэффициенты СЛАУ</p>
+<p>B<sub>i</sub> - вектор свободных членов</p>
+<p><b>Параметры рассчёта</b></p>
+<p>Время выполнения: @ViewBag.leadtime мс</p>
+<p>Количество итераций: @ViewBag.iter</p>
+<p>Коэффициент: @ViewBag.omega</p>
+<p>Точность: @ViewBag.tolerance</p>
+<p>Максимально допустимое число итераций: @ViewBag.maxIterations</p>
+<form method="post">
+
+    <table id="Matrix">
+
+        <tr>
+            <th colspan="3">Aij</th>
+            <th>Bi</th>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="A[0][]" value="4" /></td>
+            <td><input type="text" name="A[0][]" value="-1" /></td>
+            <td><input type="text" name="A[0][]" value="0" /></td>
+            <td><input type="text" name="B[]" value="3" /></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="A[1][]" value="-1" /></td>
+            <td><input type="text" name="A[1][]" value="4" /></td>
+            <td><input type="text" name="A[1][]" value="-1" /></td>
+            <td><input type="text" name="B[]" value="2" /></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="A[2][]" value="0" /></td>
+            <td><input type="text" name="A[2][]" value="-1" /></td>
+            <td><input type="text" name="A[2][]" value="4" /></td>
+            <td><input type="text" name="B[]" value="3" /></td>
+        </tr>
+
+
+    </table>
+
+    <br />
+
+    <input type="submit" value="Решить СЛАУ"/>
+
+
+</form>
+
+<br />
+
+
+@if (Model != null)
+{
+    <h3>Решение СЛАУ</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Значения переменных</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>@e</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

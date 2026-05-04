@@ -1,0 +1,14 @@
+C:\visual\OperateNode\OperateNode\bin\Debug\OperateNode.exe.config
+C:\visual\OperateNode\OperateNode\bin\Debug\OperateNode.exe
+C:\visual\OperateNode\OperateNode\bin\Debug\OperateNode.pdb
+C:\visual\OperateNode\OperateNode\obj\Debug\OperateNode.csproj.AssemblyReference.cache
+C:\visual\OperateNode\OperateNode\obj\Debug\OperateNode.csproj.CoreCompileInputs.cache
+C:\visual\OperateNode\OperateNode\obj\Debug\OperateNode.exe
+C:\visual\OperateNode\OperateNode\obj\Debug\OperateNode.pdb
+C:\visual\APIRelaxion\OperateNode\bin\Debug\OperateNode.exe.config
+C:\visual\APIRelaxion\OperateNode\bin\Debug\OperateNode.exe
+C:\visual\APIRelaxion\OperateNode\bin\Debug\OperateNode.pdb
+C:\visual\APIRelaxion\OperateNode\obj\Debug\OperateNode.csproj.AssemblyReference.cache
+C:\visual\APIRelaxion\OperateNode\obj\Debug\OperateNode.csproj.CoreCompileInputs.cache
+C:\visual\APIRelaxion\OperateNode\obj\Debug\OperateNode.exe
+C:\visual\APIRelaxion\OperateNode\obj\Debug\OperateNode.pdb
